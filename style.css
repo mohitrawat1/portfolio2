@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+}
+
+/* TITLE CONTAINER */
+.top-container{
+    background-image: url(background6.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden;
+    position: relative; */
+}
+
+/* #video-bg {
+    
+    position: absolute;
+    top: 0;
+    left: 50vh;
+    width: 60%;
+    height: 100%;
+    object-fit: cover; /* Place the video behind other content 
+}
+*/
+
+
+/************************************************ NAVBAR **********************************************************/
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar li {
+    align-self: center;
+}
+
+.nav-logo {
+    height: 10vh;
+    width: 10vh;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    transform: scale(1.3);
+    font-size: 30px;
+    color: red;
+}
+
+/***************************************************** TITLE *****************************************************/
+
+.title {
+    padding-top: 20vh;
+    color: aliceblue;
+    font-size: 20px;
+    word-spacing: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 30%;
+    grid-row: 1;
+    grid-column: 1;
+    padding-left: 80%;
+}
+
+.hi {
+    color: #FF0000;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 20px rgba(241, 51, 13, 0.8);
+    grid-row: 1;
+    grid-column: 2;
+    padding-left: 23%;
+    padding-top: 4%;
+    padding-bottom: 0;
+}
+
+.im {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 80vh;
+    padding-bottom: 10px;
+}
+
+.name {
+    color: rgb(214, 255, 6);
+    font-family: 'Tilt Prism', cursive;
+    font-size: 40px;
+    text-shadow: 0 0 20px rgba(103, 205, 248, 0.8);
+    grid-row: inherit;
+}
+
+.adev {
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 80vh;
+    padding-bottom: 5vh;
+}
+
+.dev {
+    color: chartreuse;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 40px;
+    text-shadow: 0 0 20px rgba(109, 244, 132, 0.8);
+}
+
+/* MIDDLE CONTAINER */
+
+/************************************************* Projects *******************************************************/
+
+.projects {
+    background-image: url(projects.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 10vh;
+    padding-bottom: 10vh;
+    padding-top: 4vh;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 4vh;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+.tin {
+    width: 40vh;
+    border-radius: 30px;
+}
+
+.tin-text {
+    color: rgb(255, 255, 255);
+    word-spacing: 3px;
+    width: 450px;
+    font-weight: bolder;
+    font-family: 'Caprasimo', cursive;
+}
+
+.smiley {
+    width: 35vh;
+    border-radius: 30px;
+}
+
+.smiley-text {
+    color: rgb(255, 255, 255);
+    word-spacing: 3px;
+    width: 450px;
+    font-weight: bolder;
+    font-family: 'Caprasimo', cursive;
+}
+
+/************************************************ SKILLS *********************************************************/
+
+.skills {
+    background-image: url(skills.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.skills h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 20px rgba(255, 28, 206, 10);
+}
+
+.skills table {
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 20px;
+    box-shadow: 0 0 20px rgba(30, 30, 244, 0.8);
+    padding-bottom: 40px;
+}
+
+.html {
+    width: 40px;
+}
+
+/*********************************************** RESUME ***********************************************************/
+
+.resume {
+    background-image: url(resume.avif);
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.resume h1 {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 40px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 20px rgba(22, 7, 244, 10);
+}
+
+.resume embed {
+    padding-left: 20vh;
+    width: 80%;
+    height: 80%;
+}
+
+/********************************************* BOTTOM CONTAINER ***************************************************/
+
+/************************************************ ABOUT-ME ********************************************************/
+
+.about-me {
+    background-image: url(aboutme.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.about-me h1 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 0 0 20px rgba(20, 175, 247, 10);
+}
+
+.about-me p {
+    text-align: center;
+    width: 50%;
+    margin-top: 6vh;
+    margin-left: 50vh;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+/*********************************************** CONTACT ME *******************************************************/
+
+.contact-me {
+    background-image: url(contactme.avif);
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.contact-me h1 {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 50px;
+    text-shadow: 0 0 20px rgba(29, 2, 240, 0.8);
+}
+
+.social-links {
+    text-align: center;
+}
+
+.btn {
+    width: 30vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    font-weight: bolder;
+}
+
+.btn:hover a {
+    color: black;
+}
+
+.contact-me i {
+    margin: 5% 3% 5% 0%;
+}
+
+.address {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+.btn1 {
+    margin-left: 91.5vh;
+    width: 30vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.btn1 a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.btn1:hover {
+    background-color: white;
+    font-weight: bolder;
+}
+
+.btn1:hover a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+}
+/* TITLE CONTAINER */
+.top-container{
+    background-image: url(background6.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/************************************************ NAVBAR **********************************************************/
+
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar li{
+    align-self: center;
+}
+.nav-logo{
+    height: 10vh;
+    width: 10vh;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    transform: scale(1.3);
+    font-size: 30px;
+    color: red;
+}
+
+/***************************************************** TITLE *****************************************************/
+
+.title{ 
+    padding-top: 20vh;
+    color: aliceblue;
+    font-size: 20px;
+    word-spacing: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 30%;
+    grid-row: 1;
+    grid-column: 1;
+    padding-left: 80%;
+}
+.hi{
+    color: #FF0000;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 20px rgba(241, 51, 13, 0.8);
+    grid-row: 1;
+    grid-column: 2;
+    padding-left: 23%;
+    padding-top: 4%;
+    padding-bottom: 0;
+}
+.im{
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 80vh;
+    padding-bottom: 10px;
+}
+.name{
+    color: rgb(214, 255, 6);
+    font-family: 'Tilt Prism', cursive;
+    font-size: 40px;
+    text-shadow: 0 0 20px rgba(103, 205, 248, 0.8);
+    grid-row: inherit;
+}
+.adev{
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 80vh;
+    padding-bottom: 5vh;
+}
+.dev{
+    color: chartreuse;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 40px;
+    text-shadow: 0 0 20px rgba(109, 244, 132, 0.8);
+}
+
+/* MIDDLE CONTAINER */
+
+/************************************************* Projects *******************************************************/
+
+.projects{
+    background-image: url(projects.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.projects h2{
+    text-align: center;
+    font-size: 10vh;
+    padding-bottom: 10vh;
+    padding-top: 4vh;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 4vh;
+}
+td{
+    padding: 10px 20px;
+}
+.tin{
+    width: 40vh;
+    border-radius: 30px;
+}
+.tin-text{
+    color: rgb(255, 255, 255);
+    word-spacing: 3px;
+    width: 450px;
+    font-weight: bolder;
+    font-family: 'Caprasimo', cursive;
+}
+.smiley{
+    width: 35vh;
+    border-radius: 30px;
+}
+.smiley-text{
+    color: rgb(255, 255, 255);
+    word-spacing: 3px;
+    width: 450px;
+    font-weight: bolder;
+    font-family: 'Caprasimo', cursive;
+}
+
+/************************************************ SKILLS *********************************************************/
+
+.skills{
+    background-image: url(skills.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.skills table{
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 20px ;
+    box-shadow: 0 0 20px rgba(30, 30, 244, 0.8);
+    padding-bottom: 40px;
+}
